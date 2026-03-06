@@ -1,11 +1,7 @@
-// import { defineConfig } from 'vite'
-// import react from '@vitejs/plugin-react'
-
-// export default defineConfig({
-//   plugins: [react()],
-// })
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/brahmacharya_webApp/",
+  plugins: [react()],
+  base: '/brahmacharya_webApp/',  // 👈 add this line
 })
