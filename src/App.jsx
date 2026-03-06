@@ -9,6 +9,7 @@ import PremanandTab from './components/tabs/PremanandTab'
 import OshoTab      from './components/tabs/OshoTab'
 import TasksTab     from './components/tabs/TasksTab'
 import MusicTab     from './components/tabs/MusicTab'
+import React from 'react'
 
 // ── Tiny localStorage helpers ────────────────────────────────────────────────
 const gs = (k, d) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d } catch { return d } }

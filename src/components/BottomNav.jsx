@@ -1,3 +1,4 @@
+import React from 'react'
 const TABS = [
     { id: 'home',      e: '🏠', l: 'Home'      },
     { id: 'fight',     e: '⚔️', l: 'Fight'     },

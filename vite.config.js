@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/brahmacharya_webApp/',  // 👈 add this line
+  base: '/brahmacharya_webApp/', 
 })

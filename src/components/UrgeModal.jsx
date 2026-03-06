@@ -1,5 +1,5 @@
 import { S } from './shared/styles'
-
+import React from 'react'
 const URGE_VERSE = {
   en: "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.",
   hi: "विषयों का चिंतन करने से उनमें आसक्ति होती है, आसक्ति से कामना और कामना से क्रोध उत्पन्न होता है।",
